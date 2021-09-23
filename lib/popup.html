@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="subdomainSeperate" />
+      <label class="form-check-label" for="subdomainSeperate">
+        Consider Subdomains as Seperate
+      </label>
+    </div>
+    <br />
+    <label for="minimumPerGroup">Minimum Tabs per Group</label>
+    <input type="number" min="1" class="form-control" id="minimumPerGroup" />
+    <br />
+    <button id="group-by-domain">Group Tabs by Domain</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
